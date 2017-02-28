@@ -1,0 +1,1 @@
+Wuauclt.exe /detectnow /updatenow
