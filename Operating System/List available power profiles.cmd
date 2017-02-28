@@ -1,0 +1,1 @@
+Powercfg.exe /LIST
