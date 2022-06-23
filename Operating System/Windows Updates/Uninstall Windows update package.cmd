@@ -1,0 +1,9 @@
+@ECHO OFF
+TITLE %~n0
+SETLOCAL
+
+WUSA /uninstall /kb:4532693 /quiet
+
+PAUSE
+
+ENDLOCAL
