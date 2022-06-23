@@ -1,0 +1,22 @@
+@ECHO OFF
+TITLE %~n0
+SETLOCAL
+
+ECHO Start checking for updates
+REM UsoClient StartScan
+
+ECHO Start downloading Updates
+REM UsoClient StartDownload
+
+ECHO Start installing the downloaded updates
+REM UsoClient StartInstall
+
+ECHO Restart your device after installing the updates
+REM UsoClient RestartDevice
+
+ECHO Check, download and install updates
+UsoClient ScanInstallWait
+
+PAUSE
+
+ENDLOCAL
