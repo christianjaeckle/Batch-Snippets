@@ -1,0 +1,10 @@
+@ECHO OFF
+TITLE %~n0
+SETLOCAL
+
+FOR /f "delims=[] tokens=2" %%n IN ('PING -4 -n 1 %COMPUTERNAME% ^| FINDSTR [') DO SET IPADDR=%%n
+ECHO %IPADDR%
+
+PAUSE
+
+ENDLOCAL
