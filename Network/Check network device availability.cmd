@@ -11,4 +11,9 @@ if ERRORLEVEL 1 (
     ECHO.
 )
 
+OR
+
+PING %IPAdresse% -n 2 -4 | FIND "Pakete: Gesendet = 2, Empfangen = 2, Verloren = 0" >NUL  2>NUL
+IF %ERRORLEVEL% EQU 0 (ECHO %IPAdresse% ist erreichbar.) ELSE (ECHO %IPAdresse% ist NICHT erreichbar.)
+
 PAUSE
