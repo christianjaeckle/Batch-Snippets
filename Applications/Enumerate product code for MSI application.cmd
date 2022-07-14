@@ -4,6 +4,6 @@ SETLOCAL
 
 ECHO.
 ECHO *** Search by application name
-WMIC product WHERE "Name LIKE '%Kaspersky Endpoint Security%'" GET Name, IdentifyingNumber
+WMIC product WHERE "Name LIKE '%Kaspersky Endpoint Security%'" GET IdentifyingNumber, Name, Version
 
 ENDLOCAL
