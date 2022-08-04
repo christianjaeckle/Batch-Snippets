@@ -1,0 +1,1 @@
+nltest /server:%ComputerName% /dsgetsite
