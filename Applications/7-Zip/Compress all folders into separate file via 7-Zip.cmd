@@ -1,5 +1,6 @@
 @ECHO OFF
 TITLE %~n0
+CLS
 SETLOCAL
 
 CD "%~dp0"
