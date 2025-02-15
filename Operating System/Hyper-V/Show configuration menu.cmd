@@ -1,9 +1,8 @@
 @ECHO OFF
 TITLE %~n0
-SETLOCAL
+CLS
 
+REM Only available on Hyper-V Server
 SCONFIG
 
 PAUSE
-
-ENDLOCAL
