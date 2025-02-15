@@ -1,4 +1,7 @@
 @ECHO OFF
+TITLE %~n0
+CLS
+
 SET IPAdresse=192.168.1.1
 
 PING -n 1 %IPAdresse% | find "TTL=" >nul
