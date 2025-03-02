@@ -4,7 +4,7 @@ SETLOCAL
 
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
 
-ECHO. Neustart notwendig!
+ECHO. Reboot needed!
 
 PAUSE
 
