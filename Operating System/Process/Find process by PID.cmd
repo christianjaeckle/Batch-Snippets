@@ -1,0 +1,5 @@
+@ECHO OFF
+TITLE %~n0
+CLS
+
+TASKLIST /FI "PID eq 5985"
