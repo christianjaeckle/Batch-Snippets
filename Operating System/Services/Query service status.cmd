@@ -1,4 +1,6 @@
 @ECHO OFF
+TITLE %~n0
+CLS
 
 SC query HomeGroupProvider | FINDSTR /I /C:"STOPPED"
 
