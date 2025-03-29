@@ -2,5 +2,7 @@
 TITLE %~n0
 CLS
 
-# REM Show all sandbox sessions of the current user
+REM Show all sandbox sessions of the current user
 WSB list
+
+PAUSE
