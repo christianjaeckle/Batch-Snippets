@@ -1,6 +1,6 @@
 @ECHO OFF
 TITLE %~n0
 
-REM Import packages from yaml (DSC) file and install them
+REM Imports packages from a yaml (Powershell DSC 3.0) file and installs those.
 REM Check file "Import and install packages from yaml file.yaml"
 WinGet configure --file "<%UserProfile%\Desktop\Winget_Packages.yaml"
