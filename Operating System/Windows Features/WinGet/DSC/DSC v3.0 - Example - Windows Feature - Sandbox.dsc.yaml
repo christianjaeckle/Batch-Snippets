@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.3
+
+properties:
+  resources:
+    - resource: Microsoft.WindowsSandbox.DSC/WindowsSandbox
+      directives:
+        description: Create Windows Sandbox
+        allowPrerelease: true
+      settings:
+        Ensure: Present # Ensure the resource is present
+        LogonCommand: >
+          # Define a command to run when the sandbox is started
