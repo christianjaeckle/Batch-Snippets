@@ -1,4 +1,4 @@
 @ECHO OFF
 TITLE %~n0
 
-WinGet search <AppName>
+WinGet search --query <AppName>
